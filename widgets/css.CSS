@@ -1,0 +1,45 @@
+.app {
+	height: calc(var(--appsmith-ui-height) * 1px);
+	width: calc(var(--appsmith-ui-width) * 1px);
+	justify-content: center;
+	border-radius: var(--appsmith-theme-borderRadius);
+	box-shadow: var(--appsmith-theme-boxShadow);
+}
+
+.tip-container {
+  margin-bottom: 20px;
+}
+
+.tip-container h2 {
+  margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.tip-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.tip-header div {
+	color: #999;
+}
+
+.button-container {
+	text-align: right;	
+}
+
+.button-container button {
+  margin: 0 10px;
+	border-radius: var(--appsmith-theme-borderRadius);
+}
+
+.button-container button.primary {
+	background: var(--appsmith-theme-primaryColor) !important;
+}
+
+.button-container button.reset {
+	color: var(--appsmith-theme-primaryColor) !important;
+	border-color: var(--appsmith-theme-primaryColor) !important;
+}
